@@ -814,9 +814,13 @@ h4{
 }
 
 .project .project-item img {
-  border-radius: 10px;
-  width: 150px;
+  width: 100%;
   margin-bottom: 20px;
+  transition: 0.05ms;
+  height: 150px;
+  overflow: hidden;
+  object-fit: cover;
+  position: relative;
 }
 
 .project-bottom-border{
