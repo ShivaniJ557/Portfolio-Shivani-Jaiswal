@@ -723,6 +723,12 @@ p {
   .hero p {
     font-size: 12px;
   }
+  .section-title h2::before {
+    width: 60px;
+  }
+  .section-title h2::after {
+    width: 60px;
+  }
 }
 
 .btn-get-started {
@@ -769,6 +775,9 @@ p {
 --------------------------------------------------------------*/
 h4{
   margin-bottom: 30px;
+}
+.Space-for-cards{
+  margin: 20px;
 }
 .experience-item{
   box-shadow: 1px 1px #343434, 
