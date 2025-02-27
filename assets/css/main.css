@@ -783,8 +783,7 @@ p {
   color: color-mix(in srgb, var(--background-color), transparent 20%);
   border-radius: 10px;
   width: 250px;
-  background-color: #fdfdfd;
-  justify-content: space-between;
+  background-color: #fdfdfd
 }
 .experience-item h5{
   font-weight: 700;
